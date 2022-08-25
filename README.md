@@ -6,4 +6,6 @@ paru -S alacritty thunar bspwm sxhkd exa feh polybar xorg-xsetroot xorg-xbacklig
 
 chmod -R +x ~/.local/bin
 betterlockscreen -u ~/.config/bspwm/backgrounds/yourbg
+
+
 sudo systemctl enable betterlockscreen@$USER.service
